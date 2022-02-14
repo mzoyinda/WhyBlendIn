@@ -1,0 +1,350 @@
+p {
+  font-size: 1.2rem;
+}
+
+section {
+  padding: 5px 0px;
+}
+
+.navbar {
+  background-color: white;
+  border-bottom: 1px solid #1A1A33;
+}
+
+a.brand-logo {
+  font-weight: 600;
+}
+
+.navbar a {
+  color: black;
+}
+
+.navbar ul a {
+  font-size: 1.2rem;
+}
+
+@media screen and (min-width: 992px) {
+  .navbar {
+    padding: 0px 20px;
+  }
+}
+
+.row img {
+  width: 100%;
+  height: 40vmin;
+  overflow: hidden;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.row .image2 {
+  width: 100%;
+  height: 40vmin;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.events h3 {
+  color: #d1343c;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.events h5 {
+  font-size: 1.4rem;
+  font-family: cursive;
+}
+
+.events .card {
+  background-color: #282840;
+  color: white;
+}
+
+.events .card-row {
+  margin: 2rem auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.events .card-row .col.l6 {
+  padding: 0 2.7rem;
+}
+
+.events .card-content > div {
+  font-family: cursive;
+  line-height: 2;
+}
+
+.events .card .card-action {
+  text-align: right;
+}
+
+.events .card .card-action a {
+  color: whitesmoke !important;
+  background-color: #525355b0;
+  padding: 0.6rem 1.4rem;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 992px) {
+  .card-row .col.m6 {
+    padding: 0 0.75rem !important;
+  }
+}
+
+#contact h3 {
+  color: #d1343c;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.button .btn {
+  background-color: transparent;
+  font-size: 1rem;
+  font-weight: 500;
+  border: 1px solid white;
+  color: white;
+  padding: 0px 1rem;
+}
+
+form {
+  width: 80%;
+  margin: 0 auto;
+  background-color: #1a1a33ef;
+  color: white;
+  padding: 2rem;
+  -webkit-box-shadow: 0 0 4px 2px rgba(23, 46, 66, 0.18);
+          box-shadow: 0 0 4px 2px rgba(23, 46, 66, 0.18);
+}
+
+.wrap {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.wrap .input-field {
+  width: 100%;
+  margin: 0.2rem;
+}
+
+.wrap p {
+  width: 100%;
+}
+
+.wrap input {
+  width: 100%;
+  padding: 1rem;
+}
+
+.wrap textarea {
+  width: 100%;
+  padding-left: 0.7rem;
+  resize: none;
+  color: white;
+  border: 1px solid white;
+  height: 10rem;
+}
+
+footer {
+  background-color: #1A1A33;
+  color: white;
+  margin-top: 14rem;
+}
+
+.footer-copyright .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 0px;
+  padding: 15px 0px;
+}
+
+span.social-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.social-icons a {
+  font-size: 1.5rem;
+}
+
+a.instagram {
+  color: white;
+}
+
+a.twitter {
+  color: white;
+}
+
+a.linkedin {
+  color: white;
+}
+
+.featured h3 {
+  color: #d1343c;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.featured img {
+  width: 80%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.sidenav-overlay {
+  z-index: 1;
+}
+
+.banner {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 1fr 2fr;
+      grid-template-rows: 1fr 2fr;
+  background-color: #1A1A33;
+  background-image: url("../images/harpreet8.PNG");
+  background-size: cover;
+  height: 80vh;
+  overflow: hidden;
+  width: 100%;
+}
+
+.banner .img-container {
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1/2;
+  background-size: cover;
+}
+
+.banner .action-btn {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2/3;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  -ms-grid-column-align: center;
+      justify-self: center;
+}
+
+.banner #btn-invite {
+  background-color: rgba(0, 0, 0, 0.726);
+  color: whitesmoke;
+  font-weight: 500;
+  cursor: pointer;
+  letter-spacing: 2px;
+  padding: 0px 1rem;
+  font-size: 1.2rem;
+}
+
+.banner #btn-invite:hover {
+  color: white;
+}
+
+.banner #btn-coach {
+  background-color: white;
+  font-size: 1rem;
+  font-weight: 500;
+  border: 1px solid white;
+  opacity: 0.9;
+  color: #D1343B;
+  padding: 0px 1rem;
+}
+
+.banner #btn-coach:hover {
+  color: #D1343B;
+  border: 1px solid #D1343B;
+}
+
+.banner a + a {
+  margin-left: 1.5rem;
+}
+
+.quote {
+  width: 80%;
+  border: none;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+@media screen and (min-width: 992px) {
+  .banner {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 42rem 2fr;
+        grid-template-columns: 42rem 2fr;
+    -ms-grid-rows: none;
+        grid-template-rows: none;
+    background-color: #1A1A33;
+    height: 80vh;
+    background-image: none;
+  }
+  .banner #btn-invite {
+    background-color: #d1343c;
+    color: #000;
+  }
+  .banner #btn-invite:hover {
+    color: white;
+  }
+  .banner #btn-coach {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+  }
+  .banner #btn-coach:hover {
+    color: white;
+    border: 1px solid #D1343B;
+  }
+  .banner #btn-invite, .banner .banner #btn-coach {
+    font-size: 1rem;
+    font-weight: 400;
+  }
+  .banner .img-container {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1/2;
+    grid-row: unset;
+    background-image: url("../images/harpreet8.PNG");
+    background-size: cover;
+  }
+  .banner .action-btn {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+    grid-row: unset;
+  }
+  .banner a + a {
+    margin-left: 1.5rem;
+  }
+  .quote {
+    width: 60%;
+  }
+  form {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  #btn-invite, #btn-coach {
+    font-size: 1.3rem !important;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  a.brand-logo {
+    font-size: 1.6rem;
+    font-weight: 600;
+  }
+}
+/*# sourceMappingURL=index.css.map */

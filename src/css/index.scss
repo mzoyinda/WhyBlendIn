@@ -1,0 +1,144 @@
+
+p{
+  font-size: 1.2rem;
+}
+section {
+  padding: 5px 0px;
+}
+
+
+
+@import "_navbar.scss";
+@import "_about.scss";
+@import "_card.scss";
+@import "_contact.scss";
+@import "_footer.scss";
+@import "_featured.scss";
+
+.sidenav-overlay {
+  z-index: 1;
+}
+
+  .banner {
+      display: grid;
+      grid-template-rows: 1fr 2fr;
+    //   grid-template-columns: 1fr 2fr;
+    background-color:#1A1A33;
+    background-image: url("../images/harpreet8.PNG");
+    background-size: cover;
+    height: 80vh;
+    overflow: hidden;
+    width: 100%;
+
+    .img-container{
+        grid-row: 1/2;
+      background-size: cover;
+    }
+    .action-btn{
+        grid-row: 2/3;
+        align-self: center;
+        justify-self: center;
+    }
+   
+    #btn-invite{
+        background-color: rgba(0, 0, 0, 0.726);
+        color: whitesmoke;
+        font-weight: 500;
+        cursor: pointer;
+        letter-spacing: 2px;
+        padding: 0px 1rem;
+        font-size: 1.2rem;
+        &:hover{
+            color: white;
+        }
+    }
+    #btn-coach{
+        background-color: white;
+        font-size: 1rem;
+        font-weight: 500;
+        border: 1px solid white;
+        opacity: 0.9;
+        color: #D1343B;
+        padding: 0px 1rem;
+        &:hover{
+            color: #D1343B;
+            border: 1px solid #D1343B;
+        }
+    }
+    a+a{
+        margin-left:1.5rem;
+    }
+  }
+  .quote{
+     width: 80%;
+     border: none;
+     margin-top: 1rem;
+     margin-bottom: 3rem;
+     font-size: 1.6rem;
+     font-weight: 600;
+     text-transform: capitalize;
+  }
+  
+  @media screen and (min-width: 992px) {
+    .banner {
+        display: grid;
+        grid-template-columns: 42rem 2fr;
+        grid-template-rows: none;
+      background-color:#1A1A33;
+      height: 80vh;
+      background-image: none;
+
+      #btn-invite{
+        background-color: #d1343c;
+        color: #000;
+        &:hover{
+            color: white;
+        }
+      }
+      #btn-coach{
+        background-color:transparent;
+        border: 1px solid white;
+        color: white;
+        &:hover{
+            color: white;
+            border: 1px solid #D1343B;
+        }
+    }
+      #btn-invite, .banner #btn-coach{
+        font-size: 1rem;
+        font-weight: 400;
+      }
+      .img-container{
+          grid-column: 1/2;
+          grid-row:unset;
+          background-image: url("../images/harpreet8.PNG");
+        background-size: cover;
+      }
+      .action-btn{
+          grid-column: 2/3;
+          grid-row:unset;
+      }
+      a+a{
+          margin-left:1.5rem;
+      }
+    }
+    .quote {
+        width: 60%;
+    }
+    form {
+      width:50%;
+    }
+  }
+  @media screen and (min-width: 1200px) {
+    #btn-invite, #btn-coach{
+        font-size: 1.3rem !important;
+  }
+}
+  @media screen and (max-width: 400px) {
+    a.brand-logo {
+        font-size: 1.6rem;
+      font-weight: 600;
+    }
+  
+  
+  }

@@ -1,0 +1,46 @@
+
+
+.events{
+    h3{
+        color: #d1343c;
+        font-weight: 600;
+        margin-bottom: 2rem;
+    }
+    h5{
+        font-size: 1.4rem;
+        font-family: cursive;
+    }
+    .card{
+        background-color: #282840;
+        color: white;
+    }
+    .card-row{
+        margin: 2rem auto;
+        justify-content: center;
+    
+        .col.l6{
+            padding: 0 2.7rem;
+        }
+     
+    }
+    .card-content > div{
+        font-family: cursive;
+        line-height: 2;
+    }
+    .card .card-action{
+        text-align: right;
+    }
+    .card .card-action a{
+        color: whitesmoke !important;
+        background-color: #525355b0;
+        padding: 0.6rem 1.4rem;
+        border-radius: 10px;
+    }
+}
+
+
+@media screen and (max-width:992px){
+    .card-row .col.m6{
+        padding: 0 0.75rem !important;
+    }
+}

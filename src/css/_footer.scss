@@ -1,0 +1,28 @@
+footer{
+    background-color: #1A1A33;
+    color: white;
+    margin-top: 14rem;
+}
+.footer-copyright .row {
+    display: flex;
+    align-items: center;
+     margin-bottom: 0px;
+    padding: 15px 0px;
+}
+
+span.social-icons {
+    display: flex;
+    justify-content: space-evenly;
+}
+.social-icons a{
+    font-size: 1.5rem;
+}
+a.instagram{
+    color: white;
+}
+a.twitter{
+    color: white;
+}
+a.linkedin{
+    color: white;
+}
