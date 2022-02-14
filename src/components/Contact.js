@@ -25,9 +25,9 @@ const Contact = () => {
         };
     };
 
-        const resetForm = () => {
-            setData({fullname: '', email: '', subject:'', message: ''})
-        }
+        // const resetForm = () => {
+        //     setData({fullname: '', email: '', subject:'', message: ''})
+        // }
         
     //    const handleSubmit = (e) => {
     //        e.preventDefault();
