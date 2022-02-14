@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import axios from "axios";
 import { Button, Icon, Textarea, TextInput } from 'react-materialize';
 
 const Contact = () => {
@@ -30,25 +29,25 @@ const Contact = () => {
             setData({fullname: '', email: '', subject:'', message: ''})
         }
         
-       const handleSubmit = (e) => {
-           e.preventDefault();
-           axios.post("/send", { data })
-               .then((response) => {
-              if (response.data.status === 'success'){
-                  alert("Message Sent."); 
-                  resetForm()
-              }else if(response.data.status === 'fail'){
-                  alert("Message failed to send.")
-              }
-               })
-               console.log(data)
-        }
+    //    const handleSubmit = (e) => {
+    //        e.preventDefault();
+    //        axios.post("/send", { data })
+    //            .then((response) => {
+    //           if (response.data.status === 'success'){
+    //               alert("Message Sent."); 
+    //               resetForm()
+    //           }else if(response.data.status === 'fail'){
+    //               alert("Message failed to send.")
+    //           }
+    //            })
+    //            console.log(data)
+    //     }
     
    
   return (
       <section id='contact'>
           <h3 className="center-align">Contact</h3>
-                      <form onSubmit={handleSubmit}>
+                      <form >
                           <div className="row wrap">
                           <div className="input-field col s12">
                               <p>Name (First and Surname)</p>
